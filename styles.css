@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.nav_main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: silver;
+  height: 3em;
+}
+
+.nav_menu li {
+  list-style: none;
+  display: inline;
+}
+
+.banner_main {
+  background: silver;
+  height: 10em;
+  margin-bottom: 1em;
+}
+
+.container {
+  background: silver;
+  height: 15em;
+}
+
+.footer_main {
+  margin-top: 1em;
+}
