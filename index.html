@@ -14,8 +14,8 @@
       <img src="#" alt="logo">
     </div>
     <ul class="nav_menu">
-      <li>about</li>
-      <li>contact</li>
+      <li><a href="#about">about</a></li>
+      <li><a href="#contact">contact</a></li>
     </ul>
   </nav>
 
@@ -25,27 +25,22 @@
   </header>
 
   <div class="container map"</div>
-  <img src="#" alt="Embedded Google Earth map">
+  <img src="#" alt="Embedded Google Earth map" class="map_display">
   </div>
 
-  <div class="container about">
+  <div class="container" id="about">
     <h3>About Us</h3>
     <p>Lorem ipsum dolor sit amet, illud postulant convenire mel et, at mundi dictas his, ex his pertinax senserit. Diceret labores scaevola cum in. Ut everti honestatis quaerendum nec. Vim id vide appellantur.</br>Vis te euismod constituam, ex mea vitae postea necessitatibus, in eos dicit oratio noluisse. Has te nostro meliore disputando. Sea affert delicata ea, his solum reque accusata ei, eos erant vocibus ne. Et ornatus docendi commune mel, his meis movet torquatos te. Graeco inciderint dissentiet mei ut.</p>
   </div>
 
-  <div class="container contact">
+  <div class="container" id="contact">
     <h3>Contact Us</h3>
       <form class="cf">
-        <div class="half left cf">
-          <input type="text" id="input-name" placeholder="Name">
-          <input type="email" id="input-email" placeholder="Email address">
-          <input type="text" id="input-subject" placeholder="Subject">
-        </div>
-        <div class="half right cf">
-          <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
-      </div>
-      <input type="submit" value="Submit" id="input-submit">
-    </form>
+        <input type="text" id="input-name" placeholder="Name" class="form_item">
+        <input type="email" id="input-email" placeholder="Email address" class="form_item">
+        <textarea name="message" type="text" id="input-message" placeholder="Message" class="form_item"></textarea>
+        <input type="submit" value="Submit" id="input-submit">
+      </form>
   </div>
 
   <footer class="footer_main container">
