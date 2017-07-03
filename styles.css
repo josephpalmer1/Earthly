@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: helvetica;
+}
+
+.nav_main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: silver;
+  height: 3em;
+}
+
+.nav_menu li {
+  list-style: none;
+  display: inline;
+  margin: .5em;
+}
+
+.nav_logo {
+  margin: .5em;
+}
+
+.banner_main {
+  background: silver;
+  margin-bottom: 1em;
+  padding: 0em 10em 0em 10em;
+}
+
+.map_display {
+  border: solid black .1em;
+  width: 20em;
+  height: 15em;
+}
+
+.container {
+  background: silver;
+  height: 15em;
+  padding: 0em 10em 0em 10em;
+}
+
+.cf {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_item {
+  margin-bottom: 1em;
+}
+
+.footer_main {
+  margin-top: 1em;
+}
